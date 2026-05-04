@@ -14,7 +14,7 @@ api_key = "ENTER YOUR API KEY"
 
 import anthropic
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="ENTER YOUR API KEY")
 
 message = client.messages.create(
   model="claude-opus-4-7",
